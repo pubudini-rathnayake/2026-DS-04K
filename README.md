@@ -28,7 +28,7 @@ In the commercial grain and rice processing industry, purity and variety consist
 | :--- | :--- | :--- |
 | **Member 1** | Data Understanding & EDA | Dataset ingestion, statistical profiling, distribution analysis, outlier detection, and exploratory visualizations. |
 | **Member 2** | Preprocessing & Pipeline Design | Missing value verification, IQR outlier capping, RobustScaler transformation, label encoding, and stratified train/test split. |
-| **Member 3 ** | Model Building & Architecture | Baseline model formulation, selection & implementation of 5 ML architectures (Logistic Regression, Decision Tree, Random Forest, SVM, KNN), and artifact serialization. |
+| **Member 3** | Model Building & Architecture | Baseline model formulation, selection & implementation of 5 ML architectures (Logistic Regression, Decision Tree, Random Forest, SVM, KNN), and artifact serialization. |
 | **Member 4** | Evaluation, Comparison & Recommendation | Multidimensional model evaluation (Accuracy, F1, ROC-AUC, Confusion Matrices, Overfitting Gap analysis), feature importance synthesis, and stakeholder recommendations. |
 
 ---
@@ -117,7 +117,7 @@ Five distinct machine learning paradigms were trained on identical training sets
 │   ├── train_processed.csv                       # Scaled, processed training subset (3,048 rows)
 │   ├── test_processed.csv                        # Scaled, processed testing subset (762 rows)
 │   └── label_encoder.pkl                         # Target label encoder artifact
-├── model_building/                                # Member 3 (Team Leader): Model development
+├── model_building/                                # Member 3 : Model development
 │   ├── Modeling.ipynb                             # Implementation of 5 ML architectures
 │   └── outputs/                                   # Serialized model binaries (.pkl)
 │       ├── model_logistic_regression.pkl
